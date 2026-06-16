@@ -1,11 +1,11 @@
-# 📉 Telco Customer Churn Analysis
+ Telco Customer Churn Analysis
 
 Telco müşteri verisi üzerinde uçtan uca churn tahmin pipeline'ı:  
 EDA → Feature Engineering → Model Karşılaştırma → Business Impact
 
 ---
 
-## 🎯 Proje Özeti
+Proje Özeti
 
 | | |
 |---|---|
@@ -16,7 +16,7 @@ EDA → Feature Engineering → Model Karşılaştırma → Business Impact
 
 ---
 
-## 📊 Görseller
+Görseller
 
 ### Churn Dağılımı
 ![Churn Dağılımı](gorseller/01_churn_dagilimi.png)
@@ -44,7 +44,7 @@ EDA → Feature Engineering → Model Karşılaştırma → Business Impact
 
 ---
 
-## 🔍 Temel Bulgular
+Temel Bulgular
 
 - **Churn oranı %26.6** — veri dengesiz, modelde buna dikkat edildi
 - **Month-to-month sözleşmede churn %42.7** — en kritik risk segmenti
@@ -54,7 +54,7 @@ EDA → Feature Engineering → Model Karşılaştırma → Business Impact
 
 ---
 
-## 🛠️ Kullanılan Teknolojiler
+Kullanılan Teknolojiler
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-2.0-green)
@@ -68,7 +68,7 @@ EDA → Feature Engineering → Model Karşılaştırma → Business Impact
 
 ---
 
-## 🚀 Nasıl Çalıştırılır
+Nasıl Çalıştırılır
 
 ```bash
 # 1. Repoyu klonla
@@ -84,7 +84,7 @@ jupyter notebook DSProje.ipynb
 
 ---
 
-## 📁 Dosya Yapısı
+Dosya Yapısı
 
 ```
 telco-churn-analysis/
@@ -105,6 +105,6 @@ telco-churn-analysis/
 
 ---
 
-## 📌 CV Bullet Point
+CV Bullet Point
 
 > *Telco müşteri verisi (7K satır) üzerinde EDA, feature engineering ve Logistic Regression / XGBoost ile churn tahmin modeli kurdum. ROC-AUC: 0.84. Modelin tespit ettiği churn müşterilerinin tahmini yıllık business impact'i $238K olarak hesaplandı.*
